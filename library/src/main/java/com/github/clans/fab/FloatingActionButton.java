@@ -507,7 +507,7 @@ public class FloatingActionButton extends ImageButton {
         return mClickListener;
     }
 
-    Label getLabelView() {
+    public Label getLabelView() {
         return (Label) getTag(R.id.fab_label);
     }
 
